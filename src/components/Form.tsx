@@ -9,7 +9,7 @@ interface FormPropTypes {
 
 const Form = ({ createTodo, input, setInput }: FormPropTypes) => {
   return (
-    <form onSubmit={createTodo} className="flex justify-between bg-teal-300 p-4 rounded-lg items-center">
+    <form onSubmit={createTodo} className="flex justify-between bg-zinc-300 p-4 rounded-lg items-center">
       <input
         onChange={(e) => setInput(e.target.value)}
         value={input}
